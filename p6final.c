@@ -36,7 +36,7 @@ char *string_rev(char *s)
   for(int i=0; i < lenght/2; i++)
   {
     t = s[i];
-    s[i] = s[length - i]
+    s[i] = s[length - i];
     s[length - 1] = t;
   }
   return s;
